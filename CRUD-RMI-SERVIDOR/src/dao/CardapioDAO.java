@@ -1,9 +1,10 @@
+
 package dao;
 
-public class ProdutoDAO {
+public class CardapioDAO {
     public void insert(){}
     public void update(){}
     public void delete(){}
     public void select(){}
-
+    
 }
