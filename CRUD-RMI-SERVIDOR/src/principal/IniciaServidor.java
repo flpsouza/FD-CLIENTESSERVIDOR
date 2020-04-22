@@ -32,7 +32,7 @@ public class IniciaServidor {
             LocateRegistry.createRegistry(1099);
 
             Produto objetoProduto = new Produto();
-            Naming.rebind("rmi://192.168.42.218:1099/Produto", objetoProduto);
+            Naming.rebind("rmi://192.168.1.158:1099/Produto", objetoProduto);
 
         } catch (RemoteException re) {
             System.out.println("Erro remoto: " + re.toString());
